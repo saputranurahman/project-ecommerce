@@ -7,7 +7,7 @@
           <img
             src="https://cdn-icons-png.flaticon.com/512/733/733570.png?w=740&t=st=1690532733~exp=1690533333~hmac=d72b8e91fb3fd2111aaa3af6f40fd7f14795b0cb1367cc4388c5cbe72596b720"
             class="h-8 mr-3" alt="Flowbite Logo">
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Saputra.</span>
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Ecommerce</span>
         </a>
 
         <div class="flex md:order-2">
