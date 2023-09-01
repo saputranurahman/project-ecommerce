@@ -19,7 +19,7 @@ const routes = [
         path: "/",
         name: "Home",
         component: Home,
-        meta: { requireLogin: true },
+       
     },
     {
         path: "/login",
@@ -38,7 +38,7 @@ const routes = [
         path: "/produk",
         name: "Produk",
         component: Produk,
-        meta: { requireLogin: true },
+        
     },
     {
         path: "/produk/:slug",
@@ -49,7 +49,7 @@ const routes = [
         path: "/contact",
         name: "Contact",
         component: Contact,
-        meta: { requireLogin: true },
+        
     },
     {
         path: "/cart",
@@ -61,18 +61,19 @@ const routes = [
         path: "/checkout",
         name: "Checkout",
         component: Checkout,
+        meta: { requireLogin: true },
     },
     {
         path: "/brand",
         name: "Brand",
         component: Brand,
-        meta: { requireLogin: true },
+       
     },
     {
         path: "/category",
         name: "Category",
         component: Category,
-        meta: { requireLogin: true },
+        
     },
     {
         path: "/profile",
@@ -85,6 +86,7 @@ const routes = [
         name: "OrderPage",
         component: OrderPage,
         props: true,
+        meta: { requireLogin: true },
         
     },
 ]
